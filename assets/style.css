@@ -18,7 +18,7 @@
     border: 1px dashed;
 }
 .debug header{
-    background-color: #ADD8E6;
+    
 }
 /* #endregion debug */
 
@@ -29,7 +29,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #ADD8E6; */
+    background-color: #ADD8E6;
     
 }
 
@@ -92,7 +92,7 @@ header{
 .fourth_box{
     background-color: #228B22;
     width: 60%;
-    height: 90%;
+    height: 720px;
 }
 
 /* #endregion main */
@@ -100,7 +100,7 @@ header{
 /* #region footer */
 .bg-grey{
     background-color: #23272A;
-    border-bottom: 5px solid #4F5254;
+    border-bottom: 3px solid #D9D9D9;
     display: flex;
     align-items: flex-start;
     padding-top: 10px;
@@ -123,12 +123,12 @@ header{
 .foot{
     width: 100%vh;
     height: 80px;
-
+    border-bottom: 3px solid #D9D9D9;
 }
 
 .last_box{
     width: 60%;
-    height: 80px;
+    height: 100%;
     background-color: #7FFFD4;
     display: flex;
     align-items: center;
