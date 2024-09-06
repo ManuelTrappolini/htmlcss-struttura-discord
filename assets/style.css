@@ -43,3 +43,19 @@ header{
     text-align: end;
 }
 
+/* #endregion header */
+
+/* #region main */
+.container{
+    width: 100%vh;
+    height: 150px;
+}
+
+.first{
+    background-color: #00008B;
+}
+
+.third,.fifth{
+    background-color: #D3D3D3;
+}
+/* #endregion main */
