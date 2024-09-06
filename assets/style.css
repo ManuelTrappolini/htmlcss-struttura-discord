@@ -48,7 +48,10 @@ header{
 /* #region main */
 .container{
     width: 100%vh;
-    height: 150px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .first{
@@ -58,4 +61,15 @@ header{
 .third,.fifth{
     background-color: #D3D3D3;
 }
+
+.fifth{
+    height: 800px;
+}
+
+.main_box{
+    height: 340px;
+    width: 50%;
+    background-color: #EE82EE;
+}
+
 /* #endregion main */
