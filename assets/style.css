@@ -4,4 +4,42 @@
     padding: 0;
     margin: 0;
 }
-/* #region common */
+/* #endregion common */
+
+/* #region debug */
+.debug{
+    border: 1px dashed;
+}
+/* #endregion debug */
+
+/* #region header */
+header{
+    width: 100%vh;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADD8E6;
+    
+}
+
+.logo, .login{
+    width: 10%;
+    height: 30px;
+    background-color:#DAA520;
+    padding: 4px;
+
+}
+
+.link{
+    width: 40%;
+    height: 30px;
+    background-color:#DAA520;
+    text-align: center;
+    padding: 4px;
+}
+
+.login{
+    text-align: end;
+}
+
