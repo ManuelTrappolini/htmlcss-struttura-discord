@@ -95,3 +95,34 @@ header{
 }
 
 /* #endregion main */
+
+/* #region footer */
+.sixth{
+    background-color: #23272A;
+    border-bottom: 5px solid #4F5254;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.h90{
+    height: 90%;
+}
+
+.first_footer_box{
+    width: 20%;
+    background-color: #F08080;
+    
+   
+}
+
+.second_footer_box{
+    background-color: #20B2AA;
+    width: 10%;
+    border: 1px white dashed;
+}
+.foot{
+
+}
+
+/* #endregion footer */
