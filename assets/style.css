@@ -10,6 +10,9 @@
 .debug{
     border: 1px dashed;
 }
+.debug header{
+    background-color: #ADD8E6;
+}
 /* #endregion debug */
 
 /* #region header */
@@ -19,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
     
 }
 
@@ -28,7 +31,6 @@ header{
     height: 30px;
     background-color:#DAA520;
     padding: 4px;
-
 }
 
 .link{
@@ -67,9 +69,23 @@ header{
 }
 
 .main_box{
-    height: 340px;
+    height: 80%;
     width: 50%;
     background-color: #EE82EE;
+}
+
+.h80{
+    height: 80%;
+}
+
+.second_box{
+    width: 40%;
+    background-color: #1E90FF;
+}
+
+.third_box{
+    width: 20%;
+    background-color: #FFC0CB;
 }
 
 /* #endregion main */
